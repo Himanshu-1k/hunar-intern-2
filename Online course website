@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course Website</title>
+    <style>
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: #B0C4DE;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+   
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+img{
+max-width:100%;
+height:auto;
+border-radius:25px;
+}
+.welcome-message {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333; /* Dark gray text color */
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.welcome-message h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #555; /* Dark gray heading color */
+}
+
+.welcome-message p {
+    margin-bottom: 20px;
+}
+
+.welcome-message ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.welcome-message ul li {
+    margin-bottom: 10px;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top=auto;
+    bottom: 0;
+    width: 100%;
+    
+
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-links,
+.product-policies,
+.contact-us {
+    flex: 1;
+}
+
+.social-links h3,
+.product-policies h3,
+.contact-us h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.social-links ul,
+.product-policies ul,
+.contact-us form {
+    list-style-type: none;
+    padding: 0;
+}
+.social-links ul li,
+.product-policies ul li {
+    margin-bottom: 5px;
+}
+
+.social-links ul li a,
+.product-policies ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-links ul li a:hover,
+.product-policies ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Colors for specific sections */
+
+h2 {
+    color: #333;
+max-width:100%;
+
+ 
+}
+
+h3 {
+    color: #555;
+
+
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.course {
+
+    background-color: #B0C4DE;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.course img{
+width:150px;
+height:auto;
+}
+
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <h1>H&K Educator</h1>
+
+ <div class="search-bar">
+    <input type="text" placeholder="search for courses...">
+    <button type="submit">Search</button>
+</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="Registration.html">Registration</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+<img src="C:\Users\Himanshu ketaki\Pictures\5036654.jpg">
+        
+    <div class="welcome-message">
+        <h2>Welcome to our Online Course Platform!</h2>
+        <p>At H&K Educator , we're dedicated to providing you with the best online learning experience. Whether you're looking to expand your skills, advance your career, or explore new interests, our platform offers a wide range of courses to suit your needs.</p>
+        <p>Our curated selection of courses covers various subjects, from programming and web development to business, design, and more. With expert instructors and comprehensive learning materials, you'll have everything you need to succeed.</p>
+        <h3>Why Choose Us:</h3>
+        <ul>
+            <li><strong>Diverse Course Selection:</strong> Explore courses in technology, business, arts, and more.</li>
+            <li><strong>Expert Instructors:</strong> Learn from industry professionals with real-world experience.</li>
+            <li><strong>Flexible Learning:</strong> Study at your own pace and on your schedule.</li>
+            <li><strong>Interactive Learning:</strong> Engage with interactive lessons, quizzes, and assignments.</li>
+            <li><strong>Community Support:</strong> Connect with fellow learners, share insights, and collaborate on projects.</li>
+        </ul>
+<p>Whether you're a beginner or an experienced professional, there's something for everyone at H&K Educator. Start your learning journey today and unlock your full potential!</p>
+        <p>Join us and embark on a journey of knowledge, growth, and endless possibilities. Let's learn, grow, and succeed together!</p>
+    </div>
+
+    <section>
+        <h2>Featured Courses</h2>
+       
+        <div class="course">
+<img src="C:\Users\Himanshu ketaki\Downloads\JAVA.LOGO.jpg" alt="java">
+
+            <h4> Java Programming </h4>
+            <p>Learn the fundamentals of Java programming language,including OOPS.</p>
+            <button><a href="registration.html">Register</a></button>
+        </div>
+
+ <div class="course">
+ 
+<img src="C:\Users\Himanshu ketaki\Downloads\c.jpeg" alt="c">
+            <h4>C Programming</h4>
+            <p>Introduction to C Programming.</p>
+            <button><a href="Registration.html">Register</a></button>
+        </div>
+        <div class="course">
+<img src="C:\Users\Himanshu ketaki\Downloads\c++.jpeg" alt="C++">
+            <h4>C++ Programming</h4>
+            <p>Introduction to C++ Programming.</p>
+            <button><a href="Registration.html">Register</a></button>
+        </div>
+    </section>
+</main>
+   
+
+
+    <footer>
+        <div class="footer-links">
+            <div class="social-links">
+                <h3>Social Links</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="product-policies">
+                <h3>Product Policies</h3>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <p>&copy; 2024 H&K Educator</p>
+    </footer>
+</body>
+</html>
