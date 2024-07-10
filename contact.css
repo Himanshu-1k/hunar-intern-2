@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Light gray background */
+}
+
+header {
+    background-color: #333; /* Dark background for header */
+    color: #fff; /* White text color */
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.contact-section {
+    background-color: #fff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+}
+
+.contact-section h2 {
+    color: #333; /* Dark gray heading */
+    margin-bottom: 10px; /* Add spacing below heading */
+}
+
+.contact-section p {
+    color: #555; /* Dark gray paragraph text */
+    line-height: 1.5; /* Improved readability with slightly increased line height */
+}
+
+.contact-section form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: flex;
+    margin-bottom: 5px;
+   color:#333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top=auto;
+    bottom: 0;
+    width: 100%;
+    
+
+}
